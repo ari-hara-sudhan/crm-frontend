@@ -30,7 +30,7 @@ export const Login = ({handleOnChange,email,password,handleSubmit,formSwitcher})
                             requri
                              />
                         </Form.Group>
-                        <Button  className="entry-btn"type="submit">Login</Button>
+                        <Button  className="entry-btn mt-4 mb-2"type="submit">Login</Button>
                     </Form>
                     </Col>
                 </Row>

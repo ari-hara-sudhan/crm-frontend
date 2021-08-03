@@ -18,7 +18,7 @@ export const ResetPassword = ({handleOnResetSubmit,email,formSwitcher}) => {
                             placeholder="Enter email"
                             onChange={handleOnResetSubmit} />
                         </Form.Group>
-                        <Button type="submit">ResetPassword</Button>
+                        <Button className="mt-4 mb-2" type="submit">ResetPassword</Button>
                     </Form>
                     </Col>
                 </Row>
